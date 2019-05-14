@@ -1,0 +1,25 @@
+docker run <image-name> // downloads and runs specified image
+
+docker run <image-name> echo <string> // echos text once docker image is downloaded and running
+
+docker run <image-name> ls // lists file system within image once docker image is downloaded and running
+
+docker ps // lists all running docker processes/containers
+
+docker ps --all // lists all docker processes, past & present
+
+docker create <image-name> // creates a container, sets up file system, etc. - returns the container id
+
+docker start -a <container id> // starts container, executes startup command - without '-a' flag, it only returns id, not any logs from the terminal
+
+docker system prune // removes any stopped containers
+
+docker logs <container id> // displays logs for container without restarting it
+
+docker stop <container id> // issues sigterm signal which allows the container to shutdown on it's own time and run some clean up
+
+docker kill <container id> // issues a sigkill signal which shuts down the container right away 
+
+
+
+
