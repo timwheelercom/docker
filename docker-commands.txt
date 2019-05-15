@@ -20,6 +20,18 @@ docker stop <container id> // issues sigterm signal which allows the container t
 
 docker kill <container id> // issues a sigkill signal which shuts down the container right away 
 
+docker build . // run from within directory that contains Dockerfile in order to build it
 
+docker build -t <username>/<projectname>:<version> . // naming convention for docker images
 
+docker run <username>/<projectname> // if version not specified, defaults to latest version
 
+docker run -p <PORT> : <CONTAINER PORT> <IMAGE ID>
+
+docker-compose up // starts containers
+
+docker-compose up -build // starts and builds containers
+
+docker-compose up -d // starts containers in background, no need for a new terminal
+
+docker-compose down // stops and removes all containers
