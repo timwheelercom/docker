@@ -35,3 +35,5 @@ docker-compose up -build // starts and builds containers
 docker-compose up -d // starts containers in background, no need for a new terminal
 
 docker-compose down // stops and removes all containers
+
+docker build -f <alternate dockerfile> // use this to specify an alternate Dockerfile
