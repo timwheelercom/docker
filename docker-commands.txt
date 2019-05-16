@@ -37,3 +37,5 @@ docker-compose up -d // starts containers in background, no need for a new termi
 docker-compose down // stops and removes all containers
 
 docker build -f <alternate dockerfile> // use this to specify an alternate Dockerfile
+
+docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app 7152565cf591 // runs docker container on specified port local:container, then specifies container to use /app/node_modules dir from within container, then specifies to use volume in present working dir located within app dir in container - think of volumes as a reference or pointer for the file system
