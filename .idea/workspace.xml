@@ -2,10 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc7a4277-9fe6-4509-a83e-7da2f5c6c77e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/simple-k8s/client-deployment.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/client/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/complex/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-k8s/client-pod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-k8s/client-pod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/client/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/client/src/Fib.js" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/src/Fib.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/client/src/OtherPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/src/OtherPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/client/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/complex/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/complex/nginx/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/complex/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/server/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/complex/server/keys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/server/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/complex/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/worker/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/complex/worker/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/worker/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/complex/worker/keys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/worker/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/worker/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/complex/worker/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +37,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gjn7famVsaDdyaxjhlukqVixzp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,6 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -39,6 +63,7 @@
       <updated>1598636704562</updated>
       <workItem from="1598636710921" duration="2515000" />
       <workItem from="1598803463230" duration="4499000" />
+      <workItem from="1598820889388" duration="840000" />
     </task>
     <servers />
   </component>
@@ -46,9 +71,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2866" y="269" width="584" height="522" key="find.popup" timestamp="1598815858255">
+    <state x="2866" y="269" width="584" height="522" key="find.popup" timestamp="1598821715780">
       <screen x="1920" y="23" width="2560" height="1057" />
     </state>
-    <state x="2866" y="269" width="584" height="522" key="find.popup/0.23.1920.1057/1920.23.2560.1057@1920.23.2560.1057" timestamp="1598815858255" />
+    <state x="2866" y="269" width="584" height="522" key="find.popup/0.23.1920.1057/1920.23.2560.1057@1920.23.2560.1057" timestamp="1598821715780" />
   </component>
 </project>
