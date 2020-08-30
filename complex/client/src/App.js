@@ -13,7 +13,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <div>
           <Link to={'/'}>Home</Link>
-          <Link to={'/other-page'}>Other Page</Link>        
+          <Link to={'/other-page'}>Other Page</Link>
         </div>
         <a
           className="App-link"
@@ -21,7 +21,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn K8s
         </a>
       </header>
       <div>

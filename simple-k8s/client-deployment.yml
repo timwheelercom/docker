@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: client-deployment
+spec:
+  replicas: 1 # the number of pods this deployment will make
+  selector: # selectors are used to reference pods within deployment
+    matchLabels:
+      component: web # what key/value label to reference
+  template:
+    metadata:
+      labels:
+        component: web # key/value label
+    spec:
+      containers: # the containers within each pod
+        - name: client
+          image: timwheeler/multi-client
+          ports:
+            - containerPort: 3000
