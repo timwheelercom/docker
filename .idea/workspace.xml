@@ -2,31 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc7a4277-9fe6-4509-a83e-7da2f5c6c77e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/complex/k8s/client-cluster-ip-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complex/k8s/client-deployment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complex/k8s/database-persistent-volume-claim.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complex/k8s/postgres-cluster-ip-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complex/k8s/postgres-deployment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complex/k8s/redis-cluster-ip-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complex/k8s/redis-deployment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complex/k8s/server-cluster-ip-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complex/k8s/server-config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complex/k8s/server-deployment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complex/k8s/worker-deployment.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/src/Fib.js" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/src/Fib.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/src/OtherPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/src/OtherPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/complex/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/complex/nginx/default.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/complex/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/server/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/complex/server/keys.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/server/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/complex/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/worker/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/complex/worker/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/worker/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/complex/worker/keys.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/worker/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/worker/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/complex/worker/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/Dockerrun.aws.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/nginx/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/nginx/Dockerfile.dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/nginx/default.conf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +56,7 @@
       <updated>1598636704562</updated>
       <workItem from="1598636710921" duration="2515000" />
       <workItem from="1598803463230" duration="4499000" />
-      <workItem from="1598820889388" duration="840000" />
+      <workItem from="1598820889388" duration="4159000" />
     </task>
     <servers />
   </component>
